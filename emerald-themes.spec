@@ -9,7 +9,6 @@ Source0:	http://distfiles.xgl-coffee.org/emerald-themes/%{name}-%{version}.tar.b
 # Source0-md5:	ef81b8225465f798d51beb4cd281042b
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
-BuildRequires:	pkgconfig
 Requires:	emerald
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -24,7 +23,6 @@ Motywy do emerald.
 
 %build
 autoreconf -v --install
-%{__glib_gettextize} --copy --force
 %configure 
 %{__make}
 
