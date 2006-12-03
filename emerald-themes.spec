@@ -1,13 +1,13 @@
 Summary:	Themes for emerald
 Summary(pl):	Motywy do emerald
 Name:		emerald-themes
-Version:	20061102
+Version:	20061201
 Release:	1
 License:	GPL/MIT
 Group:		X11
 #Source0:	http://distfiles.xgl-coffee.org/emerald-themes/%{name}-%{version}.tar.bz2
 Source0:	%{name}-%{version}.tar.bz2
-# Source0-md5:	9143cad6e4396e73ca5e8ffd5cbfc6bb
+# Source0-md5:	b5e8fe08bd091f324ae8e2e911a7b29a
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 Requires:	emerald
