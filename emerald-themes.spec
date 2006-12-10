@@ -3,6 +3,7 @@ Summary(pl):	Motywy do emerald
 Name:		emerald-themes
 Version:	0.1.3
 Release:	1
+Epoch:		1
 License:	GPL/MIT
 Group:		X11
 Source0:	http://releases.beryl-project.org/%{version}/%{name}-%{version}.tar.bz2
@@ -38,5 +39,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc ChangeLog
-%dir %{_datadir}/emerald
 %{_datadir}/emerald/themes
