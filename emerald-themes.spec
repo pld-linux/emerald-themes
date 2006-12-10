@@ -1,13 +1,12 @@
 Summary:	Themes for emerald
 Summary(pl):	Motywy do emerald
 Name:		emerald-themes
-Version:	20061201
+Version:	0.1.3
 Release:	1
 License:	GPL/MIT
 Group:		X11
-#Source0:	http://distfiles.xgl-coffee.org/emerald-themes/%{name}-%{version}.tar.bz2
-Source0:	%{name}-%{version}.tar.bz2
-# Source0-md5:	b5e8fe08bd091f324ae8e2e911a7b29a
+Source0:	http://releases.beryl-project.org/%{version}/%{name}-%{version}.tar.bz2
+# Source0-md5:	0751a17ebd5768d397466b54886c9724
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 Requires:	emerald
@@ -20,7 +19,7 @@ Themes for emerald.
 Motywy do emerald.
 
 %prep
-%setup -q -n %{name}
+%setup -q
 
 %build
 autoreconf -v --install
