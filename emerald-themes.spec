@@ -8,9 +8,11 @@ License:	GPL/MIT
 Group:		X11
 Source0:	http://releases.beryl-project.org/%{version}/%{name}-%{version}.tar.bz2
 # Source0-md5:	0751a17ebd5768d397466b54886c9724
+URL:		http://beryl-project.org/
 BuildRequires:	autoconf >= 2.57
-BuildRequires:	automake
-Requires:	emerald
+BuildRequires:	automake >= 1:1.9
+Requires:	emerald >= 1:0.1.3
+Obsoletes:	cgwd-themes
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -23,7 +25,10 @@ Motywy do emeralda.
 %setup -q
 
 %build
-autoreconf -v --install
+%{__aclocal}
+%{__autoconf}
+%{__autoheader}
+%{__automake}
 %configure 
 %{__make}
 
