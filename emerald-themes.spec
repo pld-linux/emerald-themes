@@ -1,5 +1,5 @@
 Summary:	Themes for emerald
-Summary(pl.UTF-8):   Motywy do emeralda
+Summary(pl.UTF-8):	Motywy do emeralda
 Name:		emerald-themes
 Version:	0.1.9999.1
 Release:	1
