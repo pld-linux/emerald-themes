@@ -1,5 +1,5 @@
 Summary:	Themes for emerald
-Summary(pl):	Motywy do emeralda
+Summary(pl.UTF-8):   Motywy do emeralda
 Name:		emerald-themes
 Version:	0.1.9999.1
 Release:	1
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Themes for emerald.
 
-%description -l pl
+%description -l pl.UTF-8
 Motywy do emeralda.
 
 %prep
