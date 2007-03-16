@@ -1,13 +1,13 @@
 Summary:	Themes for emerald
 Summary(pl.UTF-8):	Motywy do emeralda
 Name:		emerald-themes
-Version:	0.1.9999.2
+Version:	0.2.0
 Release:	1
 Epoch:		1
 License:	GPL/MIT
 Group:		X11
 Source0:	http://releases.beryl-project.org/%{version}/%{name}-%{version}.tar.bz2
-# Source0-md5:	a4373c9d815ecadec10ceea86cfe32fd
+# Source0-md5:	1aeda2bf2ebd0fea7ad537cf5c5c40ba
 URL:		http://beryl-project.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake >= 1:1.9
