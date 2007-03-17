@@ -13,6 +13,7 @@ BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake >= 1:1.9
 Requires:	emerald >= 1:0.1.3
 Obsoletes:	cgwd-themes
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
