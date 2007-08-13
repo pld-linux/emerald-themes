@@ -1,17 +1,17 @@
 Summary:	Themes for emerald
 Summary(pl.UTF-8):	Motywy do emeralda
 Name:		emerald-themes
-Version:	0.2.1
+Version:	0.5.2
 Release:	1
 Epoch:		1
 License:	GPL/MIT
 Group:		X11
-Source0:	http://releases.beryl-project.org/%{version}/%{name}-%{version}.tar.bz2
-# Source0-md5:	43ef8f6803afb8ce542309f46bc85885
-URL:		http://beryl-project.org/
+Source0:	http://releases.compiz-fusion.org/%{version}/%{name}-%{version}.tar.bz2
+# Source0-md5:	4da15bdb88def2024921b31f19b64a6f
+URL:		http://forum.compiz-fusion.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake >= 1:1.9
-Requires:	emerald >= 1:0.1.3
+Requires:	emerald >= 1:0.5.2
 Obsoletes:	cgwd-themes
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
