@@ -6,7 +6,8 @@ Release:	1
 Epoch:		1
 License:	GPL/MIT
 Group:		X11
-Source0:	http://releases.compiz-fusion.org/%{version}/%{name}-%{version}.tar.bz2
+#Source0:	http://releases.compiz-fusion.org/%{version}/%{name}-%{version}.tar.bz2
+Source0:	%{name}-%{version}.tar.bz2
 # Source0-md5:	7b3d6dd1b26ca81c706b73414342427c
 URL:		http://forum.compiz-fusion.org/
 BuildRequires:	autoconf >= 2.57
