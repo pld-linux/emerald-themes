@@ -1,13 +1,13 @@
 Summary:	Themes for emerald
 Summary(pl.UTF-8):	Motywy do emeralda
 Name:		emerald-themes
-Version:	0.5.2
+Version:	0.6.0
 Release:	1
 Epoch:		1
 License:	GPL/MIT
 Group:		X11
 Source0:	http://releases.compiz-fusion.org/%{version}/%{name}-%{version}.tar.bz2
-# Source0-md5:	4da15bdb88def2024921b31f19b64a6f
+# Source0-md5:	7b3d6dd1b26ca81c706b73414342427c
 URL:		http://forum.compiz-fusion.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake >= 1:1.9
